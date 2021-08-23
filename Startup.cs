@@ -31,7 +31,7 @@ namespace ClientesApi
         {
 
             services.AddDbContext<ClienteContext>(options => options.UseInMemoryDatabase(databaseName: "TodoList"));
-            services.AddControllersWithViews();
+            services.AddControllers();
 
         }
 
